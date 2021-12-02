@@ -1,0 +1,42 @@
+git clone git@github.com:Tanmay451/shapes.git
+cd shapes 
+echo "# shapes" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Tanmay451/shapes.git
+git push -u origin main
+git branch
+go mod init github.com/Tanmay451/shapes
+#
+## Create File circle.go 
+#
+git add circle.go
+git commit -m "cicle object"
+git push
+#
+## Create File square.go
+#
+git add square.go
+git commit -m "add square object"
+git push
+git tag v0.1.0
+git push origin v0.1.0
+#
+## Create File rectangle.go 
+#
+git add rectangle.go
+git commit -m "added rectangle"
+git push
+git tag v0.1.1
+git push origin v0.1.1
+#
+## Create File for line 
+#
+git add line.go
+git commit -m "added line"
+git puhs
+git push
+git tag v0.1.2
+git push origin v0.1.2
